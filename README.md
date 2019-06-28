@@ -1,4 +1,5 @@
 # pf
+[![CircleCI](https://circleci.com/gh/sakash1ta90/pf/tree/master.svg?style=svg)](https://circleci.com/gh/sakash1ta90/pf/tree/master)
 
 > My wonderful Nuxt.js project
 
