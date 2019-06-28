@@ -1,20 +1,20 @@
-importScripts('/_nuxt/workbox.4c4f5ca6.js')
+importScripts('/<repository-name>/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/7ebaa8ffbbd97f921c5f.js",
+    "url": "/<repository-name>/_nuxt/0a1e05b95d600de935d7.js",
+    "revision": "5a9bfe3e85542626d8f137fc6593c85c"
+  },
+  {
+    "url": "/<repository-name>/_nuxt/7ebaa8ffbbd97f921c5f.js",
     "revision": "75ee6b4d4e52d18fb4ad4504bd3f45bc"
   },
   {
-    "url": "/_nuxt/bef1bd2e3aa7ab2e1b50.js",
-    "revision": "0e4c6f0f5e301b399161e2deb8beb87c"
+    "url": "/<repository-name>/_nuxt/9766ca1f424129ed6f44.js",
+    "revision": "a7facf67d8cce68e6ab1e526977a3b88"
   },
   {
-    "url": "/_nuxt/ea3dab86cfe08e9a412c.js",
-    "revision": "d2b31a73b654371182bf07592e5f3d17"
-  },
-  {
-    "url": "/_nuxt/f0b24095be16d39e06fc.js",
+    "url": "/<repository-name>/_nuxt/f0b24095be16d39e06fc.js",
     "revision": "962b96cc4775eced425aca22083b2247"
   }
 ], {
@@ -26,6 +26,6 @@ workbox.precaching.precacheAndRoute([
 workbox.clientsClaim()
 workbox.skipWaiting()
 
-workbox.routing.registerRoute(new RegExp('/_nuxt/.*'), workbox.strategies.cacheFirst({}), 'GET')
+workbox.routing.registerRoute(new RegExp('/<repository-name>/_nuxt/.*'), workbox.strategies.cacheFirst({}), 'GET')
 
-workbox.routing.registerRoute(new RegExp('/.*'), workbox.strategies.networkFirst({}), 'GET')
+workbox.routing.registerRoute(new RegExp('/<repository-name>/.*'), workbox.strategies.networkFirst({}), 'GET')
