@@ -2,12 +2,12 @@
   <div class="container">
     <div>
       <h1 class="title">
-        pf hello
+        pf hoge
       </h1>
       <h2 class="subtitle">
         My wonderful Nuxt.js project
       </h2>
-      <nuxt-link to="/hoge">hoge</nuxt-link>
+      <nuxt-link to="/">top</nuxt-link>
     </div>
   </div>
 </template>
