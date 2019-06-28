@@ -7,7 +7,9 @@
       <h2 class="subtitle">
         My wonderful Nuxt.js project
       </h2>
-      <nuxt-link to="/">top</nuxt-link>
+      <nuxt-link to="/">
+        top
+      </nuxt-link>
     </div>
   </div>
 </template>

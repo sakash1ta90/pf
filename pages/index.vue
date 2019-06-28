@@ -7,7 +7,9 @@
       <h2 class="subtitle">
         My wonderful Nuxt.js project
       </h2>
-      <nuxt-link to="/hoge">hoge</nuxt-link>
+      <nuxt-link to="/hoge">
+        hoge
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -15,8 +17,7 @@
 <script>
 
 export default {
-  components: {
-  }
+  components: {}
 }
 </script>
 
@@ -37,7 +38,7 @@ export default {
 
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
