@@ -10,7 +10,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy:gh-pages": "gh-pages -d dist -m 'chore: update [skip ci]' -t"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
@@ -18,7 +20,6 @@
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "tailwindcss": "^1.0.0",
     "@nuxtjs/eslint-config": "^0.0.1",
     "@nuxtjs/eslint-module": "^0.0.1",
     "babel-eslint": "^10.0.1",
@@ -31,6 +32,8 @@
     "eslint-plugin-promise": ">=4.0.1",
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": "^5.2.2",
-    "nodemon": "^1.18.9"
+    "gh-pages": "^2.0.1",
+    "nodemon": "^1.18.9",
+    "tailwindcss": "^1.0.0"
   }
 }
