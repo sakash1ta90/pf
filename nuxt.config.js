@@ -1,5 +1,5 @@
 const router = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  base: '/<repository-name>/'
+  base: '/pf/'
 } : {}
 
 export default {
