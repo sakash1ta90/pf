@@ -17,6 +17,8 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.6.0",
     "@nuxtjs/pwa": "^2.6.0",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
     "nuxt": "^2.9.2"
   },
   "devDependencies": {
